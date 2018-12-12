@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+
+    {{!-- Document Settings --}}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{!-- Base Meta --}}
+    <title>{{meta_title}}</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {{!-- Styles'n'Scripts --}}
+
+
+
+    <link rel="stylesheet" type="text/css" href="{{asset "built/bootstrap.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/style.css"}}" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{asset "built/animate.css"}}" /> -->
+    <link rel="stylesheet" type="text/css" href="{{asset "built/hover.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/owl.carousel.min.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/position-right.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/owl.theme.default.min.css"}}" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800" rel="stylesheet">
+
+
+
+    {{!-- This tag outputs SEO meta+structured data and other important settings --}}
+    {{ghost_head}}
+
+</head>
+<body class="drawer drawer--right">
+
+    <header role="banner" class="hidden-lg">
+        <div class="mobileogo"><a href="/"><img src="/content/images/logo.svg" alt="Puget Tech" class="img-responsive wow rotateIn" data-wow-duration="1s" data-wow-delay="0.2s"></a> </div>
+        <button type="button" class="drawer-toggle drawer-hamburger"> <span class="sr-only">toggle navigation</span> <span class="drawer-hamburger-icon"></span> </button>
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+                <li><a class="drawer-menu-item" href="/">Home </a></li>
+                <li><a class="drawer-menu-item" href="/#aboutus">About Us</a></li>
+                <li><a class="drawer-menu-item" href="/portfolio">Portfolio </a></li>
+                <li><a class="drawer-menu-item" href="/#services">Services</a></li>
+            </ul>
+            <p class="topmargin30"><a href="/contact" class="btn btn-blue">CONTACT US</a></p>
+            <p class="topmargin30"><a href="https://clients.puget.tech" target="_blank" class="btn btn-blue2">CLIENT PORTAL</a></p>
+        </nav>
+    </header>
+    <header id="menu" class="visible-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="logo"> <a href="/"><img src="/content/images/logo.svg" alt="Puget Tech" class="img-responsive" width="350px" height="auto"></a> </div>
+                    <div id="desktopmenu">
+                        <ul>
+                            <li><a href="/#aboutus">About Us</a></li>
+                            <li><a href="/portfolio">Portfolio </a></li>
+                            <li><a href="/#services">Services</a></li>
+                        </ul>
+                    </div>
+                    <ul class="contactusbtn">
+                        <li> <a href="/contact" class="btn btn-blue">CONTACT US</a> </li>
+                        <li> <a href="https://clients.puget.tech" target="_blank" class="btn btn-blue2">CLIENT PORTAL</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-wrapper">
+
+        {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
+        {{{body}}}
+
+        {{!-- The footer at the very bottom of the screen --}}
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="row">
+                            <div class="col-md-4 topmargin10 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s"> <img src="/content/images/logo2.png" alt="Logo" class="img-responsive wow bounce infinite" data-wow-duration="2s" data-wow-delay="0.6s"> </div>
+                            <div class="col-md-8 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                                <div class="row">
+                                    <div class="col-md-3 topmargin30">
+                                        <h3>Quick Links</h3>
+                                        <ul>
+                                            <li><a href="/#aboutus">About Us</a></li>
+                                            <li><a href="/portfolio">Portfolio</a></li>
+                                            <li><a href="/#services">Services</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
+                                            <li><a href="https://clients.puget.tech" target="_blank">Client Portal</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 topmargin30">
+                                        <h3>LEGAL</h3>
+                                        <ul>
+                                            <li><a href="/privacy">Privacy Policy</a></li>
+                                            <li><a href="/tac">Terms and Condition</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 topmargin30">
+                                        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                                        <p class="text15 w300 whitetext">Sales tips, technical advice, and much more.</p>
+                                        <div class="subscribeform">
+                                            <!-- Begin Mailchimp Signup Form -->
+                                            <div id="mc_embed_signup">
+                                                <form action="https://tech.us19.list-manage.com/subscribe/post?u=8a8e127e71e2c1db6d61da533&amp;id=bad5302c7a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                    <div id="mc_embed_signup_scroll">
+                                                        <div class="mc-field-group">
+                                                            <label for="mce-EMAIL" class="whitetext">Email Address  <span class="asterisk">*</span>
+                                                            </label>
+                                                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                                                        </div>
+                                                        <div class="mc-field-group">
+                                                            <label for="mce-FULLNAME" class="whitetext">Full Name  <span class="asterisk">*</span>
+                                                            </label>
+                                                            <input type="text" value="" name="FULLNAME" class="required form-control" id="mce-FULLNAME">
+                                                        </div>
+                                                        <div id="mce-responses" class="clear">
+                                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                                        </div>
+                                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8a8e127e71e2c1db6d61da533_bad5302c7a" tabindex="-1" value=""></div>
+                                                        <div class="clear topmargin10"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-blue"></div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <!--End mc_embed_signup-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="row">
+                            <div class="col-md-6 topmargin10">
+                                <p class="text15 whitetext w300 topmargin10">Copyright © 2018 Puget Tech LLC. All Rights Reserved.</p>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <p class="social"> <a href="https://www.facebook.com/Puget-Tech-985726864968550/" target="_blank"><img src="/content/images/facebook.svg" alt="Social" width="35px"></a> <a href="https://twitter.com/puget_tech" target="_blank"><img src="/content/images/twitter.svg" alt="Social" width="35px"></a> <a href="https://www.linkedin.com/company/puget-tech" target="_blank"><img src="/content/images/in.svg" alt="Social" width="35px"></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    {{!-- The big email subscribe modal content --}}
+    {{#if @labs.subscribers}}
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            {{#if @blog.logo}}
+                <img class="subscribe-overlay-logo" src="{{@blog.logo}}" alt="{{@blog.title}}" />
+            {{/if}}
+            <h1 class="subscribe-overlay-title">Subscribe to {{@blog.title}}</h1>
+            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+            {{subscribe_form placeholder="youremail@example.com"}}
+        </div>
+    </div>
+    {{/if}}
+
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+
+
+    {{!-- jQuery + Fitvids, which makes all video embeds responsive --}}
+    <!-- <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="{{asset "built/jquery.fitvids.js"}}"></script>
+
+    {{#if pagination.pages}}
+    <script>
+        // maxPages is a global variable that is needed to determine
+        // if we need to load more pages for the infinitescroll, or if
+        // we reached the last page already.
+        var maxPages = parseInt('{{pagination.pages}}');
+    </script>
+    <script src="{{asset "built/infinitescroll.js"}}"></script>
+    {{/if}}
+
+    {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
+    {{{block "scripts"}}}
+
+    {{!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag --}}
+    {{ghost_foot}}
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    <script type="text/javascript" src="{{asset "built/bootstrap.js"}}"></script>
+    <script type="text/javascript" src="{{asset "built/iscroll.min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "built/drawer.js"}}"></script>
+
+    <script>
+        $( document ).ready( function () {
+          $( '.drawer' ).drawer();
+        } );
+    </script>
+    <script type="text/javascript" src="{{asset "built/wow.min.js"}}"></script>
+    <script>
+        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+        
+        
+        
+        jQuery(document).ready(function($){
+        
+           if(!isMobile) {
+        
+               new WOW().init();
+        
+           }
+        
+        });
+        
+        
+        
+        
+        
+    </script>
+    <script>
+        var mn = $( "header#menu" );
+        
+        $( window ).scroll( function () {
+          if ( $( this ).scrollTop() > 250 ) {
+            mn.addClass( "headertop" );
+        
+          } else {
+            mn.removeClass( "headertop" );
+        
+          }
+        } );
+    </script>
+
+    <script type="text/javascript" src="{{asset "built/dropmenu.js"}}"></script>
+    <!-- Request a Quote Modal -->
+    <div class="modal fade requestaquote" id="requestaquote" tabindex="-1" role="dialog" aria-labelledby="requestaquote">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcmXVprFDBOo2DYo_4eYs41g00Jzd40vcW6FfAy8PYT9V2nA/viewform?embedded=true" width="100%" height="3355" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+
+</body>
+</html>

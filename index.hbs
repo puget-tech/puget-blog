@@ -1,0 +1,32 @@
+{{!< default}}
+
+
+
+
+
+<div>
+    <section class="bigfeatures" style="background-image: url(/content/images/blogbg.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="text40 w700 bluetext nomargin whitetext">{{@blog.title}}</h1>
+                    <h2 class="text30 nomargin whitetext">{{@blog.description}}</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bluebg topbottompadding30">
+        <div class="container">
+            <div class="row">
+                <div class="blogscontainer">
+                   {{#foreach posts}}
+
+                        {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+                        {{> "post-card"}}
+
+                    {{/foreach}}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

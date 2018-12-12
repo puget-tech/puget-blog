@@ -1,0 +1,2 @@
+!function(e,n,o,t){e.fn.doubleTapToGo=function(t){return!!("ontouchstart"in n||navigator.msMaxTouchPoints||navigator.userAgent.toLowerCase().match(/windows phone os 7/i))&&(this.each(function(){var a=!1;e(this).on("click",function(t){var n=e(this);n[0]!=a[0]&&(t.preventDefault(),a=n)}),e(o).on("click touchstart MSPointerDown",function(t){for(var n=!0,o=e(t.target).parents(),i=0;i<o.length;i++)o[i]==a[0]&&(n=!1);n&&(a=!1)})}),this)}}(jQuery,window,document);
+//# sourceMappingURL=doubletaptogo.js.map
