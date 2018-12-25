@@ -253,7 +253,7 @@ a:hover {
     padding: 4px 15px;
     list-style: none;
     font-weight: 300;
-    background-image: url(/content/images/bullet.jpg);
+    background-image: url(/assets/images/bullet.jpg);
     background-repeat: no-repeat;
     background-position: left 12px;
 }
@@ -275,7 +275,7 @@ a:hover {
     font-size: 15px;
     list-style: none;
     font-weight: 300;
-    background-image: url(/content/images/yes.png);
+    background-image: url(/assets/images/yes.png);
     background-repeat: no-repeat;
     background-position: left 6px;
     padding-left: 20px;
@@ -290,7 +290,7 @@ a:hover {
     padding: 2px 20px;
     list-style: none;
     font-weight: 300;
-    background-image: url(/content/images/bullet.png);
+    background-image: url(/assets/images/bullet.png);
     background-repeat: no-repeat;
     background-position: left 11px;
     color: #ffffff;
@@ -304,7 +304,7 @@ a:hover {
     padding: 6px 25px;
     list-style: none;
     font-weight: 400;
-    background-image: url(/content/images/bullet3.png);
+    background-image: url(/assets/images/bullet3.png);
     background-repeat: no-repeat;
     background-position: left 15px;
 }
@@ -341,7 +341,7 @@ a:hover {
 }
 .numberlist li ul li {
     list-style: none;
-    background-image: url(/content/images/bullet3.png);
+    background-image: url(/assets/images/bullet3.png);
     background-repeat: no-repeat;
     background-position: left 14px;
     padding-left: 15px;
@@ -389,7 +389,7 @@ a:hover {
     color: #bd1010;
 }
 .topphone {
-    background-image: url(/content/images/phone.png);
+    background-image: url(/assets/images/phone.png);
     background-position: left 0px;
     background-repeat: no-repeat;
     padding-left: 55px;
@@ -398,7 +398,7 @@ a:hover {
     color: #12315d;
 }
 .toplocation {
-    background-image: url(/content/images/dallas.png);
+    background-image: url(/assets/images/dallas.png);
     background-position: left 0px;
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -613,16 +613,16 @@ header.headertop {
     bottom: 40%;
 }
 .slide1 {
-    background-image: url(/content/images/slide1.jpg);
+    background-image: url(/assets/images/slide1.jpg);
 }
 .slide2 {
-    background-image: url(/content/images/slide2.jpg);
+    background-image: url(/assets/images/slide2.jpg);
 }
 .slide3 {
-    background-image: url(/content/images/slide3.jpg);
+    background-image: url(/assets/images/slide3.jpg);
 }
 .slide4 {
-    background-image: url(/content/images/slide4.jpg);
+    background-image: url(/assets/images/slide4.jpg);
 }
 .mainbanner {
     background-repeat: no-repeat;
@@ -741,7 +741,7 @@ header.headertop {
 
 /* area*/ 
 #area {
-    background-image: url(/content/images/yellowbg.jpg);
+    background-image: url(/assets/images/yellowbg.jpg);
     padding: 30px 0px;
 }
 /*.rightmenu */
@@ -800,16 +800,16 @@ h4:before {
     padding: 150px 0px;
 }
 .features1 {
-    background-image: url(/content/images/featuresbg1.jpg);
+    background-image: url(/assets/images/featuresbg1.jpg);
 }
 .contactbg {
-    background-image: url(/content/images/contactusbg.jpg);
+    background-image: url(/assets/images/contactusbg.jpg);
 }
 .contactbg label {
     color: white;
 }
 .featurelandscaping {
-    background-image: url(/content/images/featurelandscaping.jpg);
+    background-image: url(/assets/images/featurelandscaping.jpg);
 }
 .featuresbox {
     background-color: rgba(0,0,0,0.7);
@@ -817,21 +817,21 @@ h4:before {
     padding: 30px;
 }
 .phone2 {
-    background-image: url(/content/images/phone2.svg);
+    background-image: url(/assets/images/phone2.svg);
     background-size: 30px 30px;
     background-repeat: no-repeat;
     background-position: left 5px;
     padding-left: 40px;
 }
 .location2 {
-    background-image: url(/content/images/location.svg);
+    background-image: url(/assets/images/location.svg);
     background-size: 25px 30px;
     background-repeat: no-repeat;
     background-position: left 5px;
     padding-left: 40px;
 }
 .email2 {
-    background-image: url(/content/images/email2.svg);
+    background-image: url(/assets/images/email2.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: left 5px;
@@ -890,13 +890,13 @@ h4:before {
     min-height: 69px;
 }
 .experienced {
-    background-image: url(/content/images/experiencedstaff.png);
+    background-image: url(/assets/images/experiencedstaff.png);
 }
 .certifiedcompany {
-    background-image: url(/content/images/certifiedcompany.png);
+    background-image: url(/assets/images/certifiedcompany.png);
 }
 .affordablerates {
-    background-image: url(/content/images/affordablerates.png);
+    background-image: url(/assets/images/affordablerates.png);
 }
 .recentprojects {
     padding: 137px 0px;
@@ -913,13 +913,13 @@ h4:before {
     min-height: 60px;
 }
 .number1 {
-    background-image: url(/content/images/1.png);
+    background-image: url(/assets/images/1.png);
 }
 .number2 {
-    background-image: url(/content/images/2.png);
+    background-image: url(/assets/images/2.png);
 }
 .number3 {
-    background-image: url(/content/images/3.png);
+    background-image: url(/assets/images/3.png);
 }
 /*servicebox */
 .services {
@@ -927,7 +927,7 @@ h4:before {
 .line {
     width: 54px;
     height: 59px;
-    background-image: url(/content/images/icon.png);
+    background-image: url(/assets/images/icon.png);
 }
 .automargin {
     margin: 10px auto;
@@ -974,7 +974,7 @@ h4:before {
     text-decoration: none;
 }
 .service1 {
-    background-image: url(/content/images/junkremoval.jpg);
+    background-image: url(/assets/images/junkremoval.jpg);
 }
 
 .btn-blue {
@@ -1051,7 +1051,7 @@ h4:before {
 .yeslist2 li {
     list-style: none;
     display: inline-block;
-    background-image: url(/content/images/yes.png);
+    background-image: url(/assets/images/yes.png);
     background-repeat: no-repeat;
     background-position: left 7px;
     padding-left: 25px;
@@ -1095,14 +1095,14 @@ h4:before {
     position: absolute;
     left: 0;
     bottom: -50px;
-    background-image: url(/content/images/supportman.png);
+    background-image: url(/assets/images/supportman.png);
     background-repeat: no-repeat;
     width: 460px;
     height: 399px;
 }
 /* testimonailbox */
 .testimonialsbg {
-    background-image: url(/content/images/testimonialsbg.jpg);
+    background-image: url(/assets/images/testimonialsbg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -1142,7 +1142,7 @@ h4:before {
 }
 /* contactformbg */
 .contactformbg {
-    background-image: url(/content/images/contactformbg.jpg);
+    background-image: url(/assets/images/contactformbg.jpg);
     background-position: left center;
     background-size: cover;
     background-attachment: fixed;

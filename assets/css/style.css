@@ -1,7 +1,3 @@
-
-
-
-/* Sunny's CSS */
 @charset "utf-8";
 /* CSS Document */
 
@@ -251,12 +247,14 @@ a:hover {
 }
 .list18 li {
     font-size: 18px;
-    padding: 4px 15px;
+    padding-left: 25px;
+    margin-bottom: 10px;
     list-style: none;
     font-weight: 300;
-    background-image: url(/content/images/bullet.jpg);
+    background-image: url(../images/yes.png);
     background-repeat: no-repeat;
-    background-position: left 12px;
+    background-position: left 5px;
+    color: #737373;
 }
 .list18-2 {
     padding: 0px;
@@ -276,7 +274,7 @@ a:hover {
     font-size: 15px;
     list-style: none;
     font-weight: 300;
-    background-image: url(/content/images/yes.png);
+    background-image: url(../images/yes.png);
     background-repeat: no-repeat;
     background-position: left 6px;
     padding-left: 20px;
@@ -291,7 +289,7 @@ a:hover {
     padding: 2px 20px;
     list-style: none;
     font-weight: 300;
-    background-image: url(/content/images/bullet.png);
+    background-image: url(../images/bullet.png);
     background-repeat: no-repeat;
     background-position: left 11px;
     color: #ffffff;
@@ -305,7 +303,7 @@ a:hover {
     padding: 6px 25px;
     list-style: none;
     font-weight: 400;
-    background-image: url(/content/images/bullet3.png);
+    background-image: url(../images/bullet3.png);
     background-repeat: no-repeat;
     background-position: left 15px;
 }
@@ -342,7 +340,7 @@ a:hover {
 }
 .numberlist li ul li {
     list-style: none;
-    background-image: url(/content/images/bullet3.png);
+    background-image: url(../images/bullet3.png);
     background-repeat: no-repeat;
     background-position: left 14px;
     padding-left: 15px;
@@ -390,7 +388,7 @@ a:hover {
     color: #bd1010;
 }
 .topphone {
-    background-image: url(/content/images/phone.png);
+    background-image: url(../images/phone.png);
     background-position: left 0px;
     background-repeat: no-repeat;
     padding-left: 55px;
@@ -399,7 +397,7 @@ a:hover {
     color: #12315d;
 }
 .toplocation {
-    background-image: url(/content/images/dallas.png);
+    background-image: url(../images/dallas.png);
     background-position: left 0px;
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -598,7 +596,7 @@ header.headertop {
     padding: 10px 20px!important;
 }
 .modal {
-    /*z-index: 15;*/
+    z-index: 999999;
 }
 /* mainbanner */
 #mainslider .item {
@@ -614,16 +612,16 @@ header.headertop {
     bottom: 40%;
 }
 .slide1 {
-    background-image: url(/content/images/slide1.jpg);
+    background-image: url(../images/slide1.jpg);
 }
 .slide2 {
-    background-image: url(/content/images/slide2.jpg);
+    background-image: url(../images/slide2.jpg);
 }
 .slide3 {
-    background-image: url(/content/images/slide3.jpg);
+    background-image: url(../images/slide3.jpg);
 }
 .slide4 {
-    background-image: url(/content/images/slide4.jpg);
+    background-image: url(../images/slide4.jpg);
 }
 .mainbanner {
     background-repeat: no-repeat;
@@ -742,7 +740,7 @@ header.headertop {
 
 /* area*/ 
 #area {
-    background-image: url(/content/images/yellowbg.jpg);
+    background-image: url(../images/yellowbg.jpg);
     padding: 30px 0px;
 }
 /*.rightmenu */
@@ -801,16 +799,16 @@ h4:before {
     padding: 150px 0px;
 }
 .features1 {
-    background-image: url(/content/images/featuresbg1.jpg);
+    background-image: url(../images/featuresbg1.jpg);
 }
 .contactbg {
-    background-image: url(/content/images/contactusbg.jpg);
+    background-image: url(../images/contactusbg.jpg);
 }
 .contactbg label {
     color: white;
 }
 .featurelandscaping {
-    background-image: url(/content/images/featurelandscaping.jpg);
+    background-image: url(../images/featurelandscaping.jpg);
 }
 .featuresbox {
     background-color: rgba(0,0,0,0.7);
@@ -818,21 +816,21 @@ h4:before {
     padding: 30px;
 }
 .phone2 {
-    background-image: url(/content/images/phone2.svg);
+    background-image: url(../images/phone2.svg);
     background-size: 30px 30px;
     background-repeat: no-repeat;
     background-position: left 5px;
     padding-left: 40px;
 }
 .location2 {
-    background-image: url(/content/images/location.svg);
+    background-image: url(../images/location.svg);
     background-size: 25px 30px;
     background-repeat: no-repeat;
     background-position: left 5px;
     padding-left: 40px;
 }
 .email2 {
-    background-image: url(/content/images/email2.svg);
+    background-image: url(../images/email2.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: left 5px;
@@ -853,20 +851,51 @@ h4:before {
 }
 .planbox {
     background-color: white;
-    border: 1px solid rgba(236,236,236,1.00);
     padding-top: 15px;
     padding-right: 25px;
     padding-left: 25px;
     padding-bottom: 30px;
     text-align: center;
-    display: inline-block;
-    margin-top: 30px;
-    width: 350px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 8px;
 }
-
-
+.planbox:hover {
+        box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    transform: translate3D(0,-1px,0) scale(1.02);
+    text-decoration: none;
+}
+.plan1 {
+    border: 10px solid #466069;
+}
+.plan2 {
+    border: 10px solid #8CA9F8;
+}
+.plan3 {
+    border: 10px solid #4d7fa3;
+}
+.plantop {
+    margin-top: -17px;
+    margin-right: -27px;
+    margin-left: -27px;
+    padding: 20px;
+    text-align: center;
+}
+.plantop1 {
+    background-color: #466069;
+}
+.plantop2 {
+    background-color: #8CA9F8;
+}
+.plantop3 {
+    background-color: #4d7fa3;
+}
+.planprice {
+    margin-right: -25px;
+    margin-left: -25px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(59,59,59,1.00);
+}
 /*.planbox img {
     width: 100%;
     height: auto;
@@ -882,6 +911,22 @@ h4:before {
     width: 100%;
     height: auto;
 }
+.planbox ul {
+    padding: 0px;
+    margin-top: 30px;
+}
+.planbox ul li {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+/* whitebox */
+.whitebox {
+    border-radius: 8px;
+    border: 5px solid rgba(231,231,231,1.00);
+    padding: 20px;
+}
 /* about icons */
 .abouticons {
     background-repeat: no-repeat;
@@ -891,13 +936,13 @@ h4:before {
     min-height: 69px;
 }
 .experienced {
-    background-image: url(/content/images/experiencedstaff.png);
+    background-image: url(../images/experiencedstaff.png);
 }
 .certifiedcompany {
-    background-image: url(/content/images/certifiedcompany.png);
+    background-image: url(../images/certifiedcompany.png);
 }
 .affordablerates {
-    background-image: url(/content/images/affordablerates.png);
+    background-image: url(../images/affordablerates.png);
 }
 .recentprojects {
     padding: 137px 0px;
@@ -914,13 +959,13 @@ h4:before {
     min-height: 60px;
 }
 .number1 {
-    background-image: url(/content/images/1.png);
+    background-image: url(../images/1.png);
 }
 .number2 {
-    background-image: url(/content/images/2.png);
+    background-image: url(../images/2.png);
 }
 .number3 {
-    background-image: url(/content/images/3.png);
+    background-image: url(../images/3.png);
 }
 /*servicebox */
 .services {
@@ -928,7 +973,7 @@ h4:before {
 .line {
     width: 54px;
     height: 59px;
-    background-image: url(/content/images/icon.png);
+    background-image: url(../images/icon.png);
 }
 .automargin {
     margin: 10px auto;
@@ -976,7 +1021,7 @@ h4:before {
     text-decoration: none;
 }
 .service1 {
-    background-image: url(/content/images/junkremoval.jpg);
+    background-image: url(../images/junkremoval.jpg);
 }
 
 .btn-blue {
@@ -1019,6 +1064,46 @@ h4:before {
     text-decoration: none;
     color: #ffffff!important;
 }
+.btn-blue3 {
+        font-size: 15px;
+    color: #ffffff;
+    background-color: #8CA9F8;
+    font-weight: 500!important;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 12px;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 3px #233a4a;
+    box-shadow: 0px 3px #233a4a;
+}
+.btn-blue3:hover, .btn-blue3:focus {
+    background-color: #B4C0FA;
+    text-decoration: none;
+    color: #ffffff!important;
+}
+.btn-yellow {
+        font-size: 15px;
+    color: #000000;
+    background-color: #ffb600;
+    font-weight: 500!important;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 12px;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 3px #B36F00;
+    box-shadow: 0px 3px #B36F00;
+}
+.btn-yellow:hover, .btn-yellow:focus {
+    background-color: #F09500;
+    text-decoration: none;
+    color: #000000!important;
+}
 .btn-transparent {
     background-color: rgba(73,125,171,0);
     color: #ffffff!important;
@@ -1053,7 +1138,7 @@ h4:before {
 .yeslist2 li {
     list-style: none;
     display: inline-block;
-    background-image: url(/content/images/yes.png);
+    background-image: url(../images/yes.png);
     background-repeat: no-repeat;
     background-position: left 7px;
     padding-left: 25px;
@@ -1097,14 +1182,14 @@ h4:before {
     position: absolute;
     left: 0;
     bottom: -50px;
-    background-image: url(/content/images/supportman.png);
+    background-image: url(../images/supportman.png);
     background-repeat: no-repeat;
     width: 460px;
     height: 399px;
 }
 /* testimonailbox */
 .testimonialsbg {
-    background-image: url(/content/images/testimonialsbg.jpg);
+    background-image: url(../images/testimonialsbg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -1144,7 +1229,7 @@ h4:before {
 }
 /* contactformbg */
 .contactformbg {
-    background-image: url(/content/images/contactformbg.jpg);
+    background-image: url(../images/contactformbg.jpg);
     background-position: left center;
     background-size: cover;
     background-attachment: fixed;
@@ -1355,6 +1440,9 @@ footer label {
     margin-left: 10%;
     
 }
+.article_content img {
+    max-width: 100%!important;
+}
 @media (min-width: 1330px) {
 .container {
     width: 1300px;
@@ -1454,6 +1542,9 @@ header .logo {
 footer, .copyright, .text-right {
         text-align: center!important;
     }
+    .planbox {
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1469,7 +1560,9 @@ footer, .copyright, .text-right {
 .maintextbg h2 {
     font-size: 20px;
 }
-
+.sm-center {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 560px) {
@@ -1511,6 +1604,7 @@ footer, .copyright, .text-right {
     padding: 30px;
     flex: 1 1 auto;
 }
+    
 }
 
 @media only screen and (max-width: 480px) {
